@@ -1,0 +1,11 @@
+# Convert the input xml file to a data frame.
+sdn <- xmlToDataFrame("sdn.xml")
+
+# Review the variables
+names(sdn)
+head(sdn)
+
+# Convert into CSV comma delimited file
+write.csv(sdndataframe,"C:/Users/tmeraxa/Desktop/Desktop/XML Tutorial/sdn.csv")
+
+
